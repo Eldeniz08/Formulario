@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Projeto</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="container">
+   <div class="fundo">
+    <header class="header">
+      <img src="pngwing.com.png">
+      <div id="texto">
+        <h1 id="title" class="text-center">Exército Brasileiro</h1>
+        <p id="description" class="description text-center">Braço forte, mão amiga!<p>
+      </div>
+       
+    </header>
+    <form id="survey-form" autocomplete="off">
+       <div class="conteiner-input">
+          <input 
+                 id="name" 
+                 type="text" 
+                 name="name"
+                 class="form-control" 
+                 placeholder="Nome completo"
+                 autocomplete="off">
+          </input>
+           <p class="erro">Este nome é inválido</p>      
+        </div>
+
+        <div class="conteiner-input">
+            <input 
+                   id="cpf" 
+                   type="text" 
+                   name="cpf"
+                   class="form-control" 
+                   placeholder="Digite seu CPF"
+                   autocomplete="off">
+            </input>
+            <p class="erro">Este cpf é inválido</p>
+          </div>
+
+        <div class="conteiner-input">
+          <input
+                 id="email" 
+                 type="email" 
+                 nome="email" 
+                 class="form-control" 
+                 placeholder="Email principal"
+                 autocomplete="off">
+          </input>
+          <p class="erro">Este email é inválido</p>
+        </div>
+
+        <div class="conteiner-input">
+           <input 
+                 id="datanascimento" 
+                 type="text" 
+                 nome="number" 
+                 class="form-control" 
+                 min="13" 
+                 max="120" 
+                 placeholder="Data de Nascimento"
+                 autocomplete="off">
+            </input>
+            <p class="erro">Idade mínima de 17 anos e 6 meses</p>
+        </div>
+
+        <div class="butao">
+          <button id="avancar">Avançar</button>
+        </div>
+    </form>
+   </div>
+  </div>
+  <script src="js.js"></script>
+</body>
+</html>

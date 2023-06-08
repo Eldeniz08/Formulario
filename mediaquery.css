@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+
+@media print { /*IMPRESSORA*/
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){/*TABLET*/
+
+
+  header {
+    height: 130px;
+  }
+    
+  img{
+    width: 60px;
+    height: 100px;
+    margin-left: 5px;
+    
+  }
+
+  #texto {
+    display:block;
+    margin: 5px 60px 0 0;
+  }
+  
+  #texto h1 {
+    font-size: 50px;
+    
+  }
+  
+  #texto p {
+    
+    font-size: 1.3rem;
+  
+  }
+  
+  form {
+      margin: 60px auto;
+      width: 700px;
+      height: 800px;
+      border-radius: 10px;
+       }
+  
+  
+  .conteiner-input{
+    margin: 20px auto 70px auto;
+  }
+  
+  .conteiner-input input {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .conteiner-input input:focus {
+    font-size: 1.7rem;
+  }
+  
+   input::placeholder{
+
+    font-size: 1.7rem;
+  }
+
+  button {
+    width: 150px;
+    height: 80px;
+    font-size: 1.7rem;
+  }
+  
+  /*Erro da validacao*/
+  
+  .erro {
+    font-size: 1.5rem;
+  }
+  
+
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){/*DESKTOP*/
+    
+
+  header {
+    height: 130px;
+  }
+    
+  img{
+    width: 60px;
+    height: 100px;
+    
+  }
+
+  #texto {
+    display:block;
+    margin: 5px 60px 0 0;
+  }
+  
+  #texto h1 {
+    font-size: 50px;
+    
+  }
+  
+  #texto p {
+    
+    font-size: 1.3rem;
+  
+  }
+  
+  form {
+      margin: 60px auto;
+      width: 700px;
+      height: 900px;
+      border-radius: 10px;
+       }
+  
+  
+  .conteiner-input{
+    margin: 20px auto 70px auto;
+  }
+  
+  .conteiner-input input {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .conteiner-input input:focus {
+    font-size: 1.7rem;
+  }
+  
+   input::placeholder{
+
+    font-size: 1.7rem;
+  }
+
+  button {
+    width: 150px;
+    height: 80px;
+    font-size: 1.7rem;
+  }
+  
+  /*Erro da validacao*/
+  
+  .erro {
+    font-size: 1.5rem;
+  }
+  
+
+}
+
+
+@media screen and (min-width: 1201px){/*TELASGRANDES*/
+  
+  
+  header {
+   height: 160px;
+  }
+  
+  img{
+    width: 80px;
+    height: 130px;
+    margin-left: 10px;
+    
+  }
+  
+  #texto {
+    margin: 10px auto 0 auto;
+    display: block;
+  }
+  
+  #texto h1 {
+    font-size: 60px;
+    
+  }
+  
+  #texto p {
+    font-size: 1.9rem;
+  }
+  
+  form {
+      margin: 100px auto;
+      width: 700px;
+      height: 800px;
+      border-radius: 10px;
+
+       }
+  
+  
+  .conteiner-input{
+    margin: 15px auto 80px 60px;
+  }
+  
+  .conteiner-input input {
+    width: 80%;
+    padding: 12px;
+    
+  }
+  
+  .conteiner-input input:focus {
+    font-size: 1.9rem;
+  }
+  
+   input::placeholder{
+    font-size: 1.9rem;
+  }
+  
+  
+  button {
+    width: 200px;
+    height: 80px;
+  }
+
+
+}
+

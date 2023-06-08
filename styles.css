@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: none;
+
+}
+
+ body {
+  height: 100vh;
+  
+}
+
+.container{
+  justify-content: center;
+  align-items: center;
+  background-image: url(image_processing20220425-23666-1b5ixk3.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  background-color: rgba(218, 217, 217, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+.fundo{
+width: 100%;
+height: 100%;
+background-color: rgba(218, 217, 217, 0.5);
+}
+
+
+header {
+  font-style: italic;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(34, 131, 34);
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+img{
+  width: 50px;
+  height: 80px;
+  display: block;
+  
+}
+
+#texto {
+  display: none;
+  
+}
+
+#texto h1 {
+  font-size: 5px;
+}
+
+#texto p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.5rem;
+  color: white;
+ 
+}
+
+form {
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 2px 2px black;
+    padding-top: 50px;
+    
+     }
+
+
+.conteiner-input{
+ width: inherit;
+ margin-bottom: 80px;
+ margin-left: 5px;
+ 
+ 
+}
+
+.conteiner-input input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #FFF;
+  background-color: transparent;
+  color: white;
+}
+
+.conteiner-input input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  color: white;
+  font-size: 1.5rem;
+}
+
+ input::placeholder{
+  color: white;
+  font-size: 1.5rem;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}
+
+
+button {
+  width: 120px;
+  height: 70px;
+  background-color: #d4d4d4;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #000;
+  font-weight: 700;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  transition: 0.5s;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+
+button:hover{
+  background-color: rgb(26, 112, 26);
+  color: #fff;
+}
+
+/*Erro da validacao*/
+
+.erro {
+  color: rgb(209, 33, 33);
+  margin-top: 5px;
+  display: none;
+  font-size:20px;
+}
+
+
+
+
+
+
